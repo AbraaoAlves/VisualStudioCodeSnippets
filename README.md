@@ -4,7 +4,7 @@ Snippets for [Visual Studio Code](https://code.visualstudio.com/)
 ## Snippets for
 
 * [JavaScript](#javascript)
-* [JSX & React](#jsx)
+* [JSX & React](#jsx--react)
 
 ## Configuration
 

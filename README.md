@@ -118,3 +118,37 @@ debugger;
 ```javascript
 console.log(${value});
 ```
+
+## JSX
+
+All JSX snippets are in [javascriptreact.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascriptreact.json) file.
+
+__Note 1:__ all JavaScript snippets are included in JSX files.
+
+__Note 2:__ these snippets focuses on ES6 syntax.
+
+### [rc] React component 
+
+```javascript
+import React, { Component, PropTypes } from 'react';
+
+export default class ${ComponentName} extends Component {
+    constructor(props) {
+        super(props);
+        
+        this.state = {
+            ${property}: ${value}
+        };
+    }
+    
+    render() {
+        return (
+            $0
+        );
+    }
+}
+
+${ComponentName}.propTypes = {
+    ${propName}: PropTypes.${type}
+};
+```

@@ -10,16 +10,94 @@ If you chose JavaScript, the javascript.json file will open. Just add snippets f
 
 ## Javascript Snippets
 
-All JavaScript snippets are in [javascript.json](#) file.
+All JavaScript snippets are in [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) file.
 
-### [im] ES6 import
+### [im] Import statement
 
 ```javascript
-import ${variableName} from '${filePath}';
+import ${variableName} from '${path}';
 ```
 
-### [let] ES6 let variable
+### [re] Require statement
+
+```javascript
+require('${path}');
+```
+
+### [let] let variable
 
 ```javascript
 let ${variableName} = ${value};
+```
+
+### [const] constant variable
+
+```javascript
+const ${VARIABLE_NAME} = ${value};
+```
+
+### [class] Class with empty body
+
+```javascript
+class ${ClassName} {
+    $0
+}
+```
+
+### [classc] Class with constructor
+
+```javascript
+class ${ClassName} {
+    constructor(${parameters}) {
+        $0
+    }
+}
+```
+
+### [classe] Class that extends another class 
+
+```javascript
+class ${ClassName} extends ${AnotherClassName} {
+    constructor(${parameters}) {
+        super(${parameters});
+        $0
+    }
+}
+```
+
+### [ctor] Class constructor 
+
+```javascript
+constructor(${parameters}) {
+    $0
+}
+```
+
+### [fn] Function
+
+```javascript
+function ${name}(${parameters}) {
+    $0
+}
+```
+
+### [afn] Anonymous function
+
+```javascript
+function (${parameters}) {
+    $0
+}
+```
+
+### [sw] Switch
+
+```javascript
+switch (${variable}) {
+    case ${value}:
+        $0
+        break;
+    default:
+        $1
+        return;
+}
 ```

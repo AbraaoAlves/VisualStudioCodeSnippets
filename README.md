@@ -14,8 +14,12 @@ All JavaScript snippets are in [javascript.json](#) file.
 
 ### [im] ES6 import
 
-```import ${variableName} from '${filePath}';```
+```javascript
+import ${variableName} from '${filePath}';
+```
 
 ### [let] ES6 let variable
 
-```let ${variableName} = ${value};```
+```javascript
+let ${variableName} = ${value};
+```

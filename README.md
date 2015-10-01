@@ -8,7 +8,7 @@ Hit enter on ```Preferences: Snippets```, then choose the language.
 
 If you chose JavaScript, the javascript.json file will open. Just add snippets for ```.js``` files here. 
 
-## Javascript Snippets
+## Javascript
 
 All JavaScript snippets are in [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) file.
 

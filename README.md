@@ -1,6 +1,11 @@
 # Visual Studio Code Snippets
 Snippets for [Visual Studio Code](https://code.visualstudio.com/)
 
+## Snippets for
+
+* [JavaScript](#javascript)
+* [JSX & React](#jsx)
+
 ## Configuration
 
 To enable these snippets in Visual Studio Code, press Ctrl+Shift+P and type snippets. 
@@ -121,7 +126,7 @@ debugger;
 console.log(${value});
 ```
 
-## JSX
+## JSX & React
 
 Follow [Configuration](#configuration) steps to open the javascriptreact.json file in your VS Code.
 

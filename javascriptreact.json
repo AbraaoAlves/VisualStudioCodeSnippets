@@ -93,17 +93,44 @@
     },
     "use strict": {
         "prefix": "us",
-        "description": "use strict statement",
+        "description": "'use strict'; statement",
         "body": "'use strict';"
     },
     "debugger": {
         "prefix": "de",
-        "description": "debugger statement",
+        "description": "debugger; statement",
         "body": "debugger;"
     },
     "console log": {
         "prefix": "cl",
         "description": "console.log() statement",
         "body": "console.log(${value});"
+    },
+    "react component": {
+        "prefix": "rc",
+        "description": "React component",
+        "body": [
+            "import React, { Component, PropTypes } from 'react';",
+            "",
+            "export default class ${ComponentName} extends Component {",
+            "\tconstructor(props) {",
+            "\t\tsuper(props);",
+            "",
+            "\t\tthis.state = {",
+            "\t\t\t${property}: ${value}",
+            "\t\t};",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t$0",
+            "\t\t);",
+            "\t}",
+            "}",
+            "",
+            "${ComponentName}.propTypes = {",
+            "\t${propName}: PropTypes.${type}",
+            "};"
+        ]
     }
 }

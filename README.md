@@ -4,10 +4,9 @@ Snippets for [Visual Studio Code](https://code.visualstudio.com/)
 ## Configuration
 
 To enable these snippets in Visual Studio Code, press Ctrl+Shift+P and type snippets. 
-Hit enter on ```Preferences: Snippets```, then choose the language.
+Hit enter on ```Preferences: Snippets```, then choose the language. It'll open a .json file.
 
-For example, if you chose JavaScript, the javascript.json file will open. 
-Just add snippets from [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) for ```.js``` files here. 
+For example, if you choose JavaScript, the javascript.json file will open. Now, just add some snippets from our [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) into your javascript.json. 
 
 ## Javascript
 

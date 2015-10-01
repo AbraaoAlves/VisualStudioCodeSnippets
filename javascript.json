@@ -93,12 +93,12 @@
     },
     "use strict": {
         "prefix": "us",
-        "description": "use strict statement",
+        "description": "'use strict'; statement",
         "body": "'use strict';"
     },
     "debugger": {
         "prefix": "de",
-        "description": "debugger statement",
+        "description": "debugger; statement",
         "body": "debugger;"
     },
     "console log": {

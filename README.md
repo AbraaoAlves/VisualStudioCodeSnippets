@@ -1,5 +1,5 @@
-# VisualStudioCodeSnippets
-Snippets for Visual Studio Code
+# Visual Studio Code Snippets
+Snippets for [Visual Studio Code](https://code.visualstudio.com/)
 
 ## How to configure snippets on VSCode
 

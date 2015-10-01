@@ -1,0 +1,66 @@
+{
+/*
+	 // Place your snippets for JavaScriptReact here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+    "import": {
+        "prefix": "im",
+        "description": "ES6 import statement",
+        "body": "import ${variableName} from '${filePath}';"
+    },
+    "let variable": {
+        "prefix": "let",
+        "description": "ES6 let variable",
+        "body": "let ${variableName} = ${value};"
+    },
+    "constant variable": {
+        "prefix": "const",
+        "description": "ES6 constant variable",
+        "body": "const ${VARIABLE_NAME} = ${value};"
+    },
+    "class": {
+        "prefix": "class",
+        "description": "ES6 class",
+        "body": [
+            "class ${ComponentName} {",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div>${content}</div>",
+            "\t\t);",
+            "\t}",
+            "}"
+        ]
+    },
+    "function": {
+        "prefix": "fn",
+        "description": "Function",
+        "body": [
+            "function ${name}(${args}) {",
+            "\t$0",
+            "}"
+        ]
+    },
+    "switch": {
+        "prefix": "switch",
+        "description": "Switch statement",
+        "body": [
+            "switch (${key}) {",
+            "\tcase ${value}:",
+            "\t\t$0",
+            "\t\tbreak;",
+            "\tdefault:",
+            "\t\treturn;",
+            "}"
+        ]
+    }
+}

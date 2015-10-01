@@ -10,17 +10,17 @@
         "body": "require('${path}');"
     },
     "let": {
-        "prefix": "let",
+        "prefix": "lt",
         "description": "let variable",
         "body": "let ${variableName} = ${value};"
     },
     "constant": {
-        "prefix": "const",
+        "prefix": "ct",
         "description": "constant variable",
         "body": "const ${VARIABLE_NAME} = ${value};"
     },
     "class": {
-        "prefix": "class",
+        "prefix": "cls",
         "description": "Class with empty body",
         "body": [
             "class ${ComponentName} {",
@@ -29,7 +29,7 @@
         ]
     },
     "class with constructor": {
-        "prefix": "classc",
+        "prefix": "clsc",
         "description": "Class with constructor",
         "body": [
             "class ${ComponentName} {",
@@ -40,7 +40,7 @@
         ]
     },
     "class that extends another class": {
-        "prefix": "classe",
+        "prefix": "clse",
         "description": "Class that extends another class",
         "body": [
             "class ${ComponentName} extends ${AnotherClassName} {",
@@ -70,7 +70,7 @@
         ]
     },
     "anonymous function": {
-        "prefix": "fn",
+        "prefix": "afn",
         "description": "Anonymous function",
         "body": [
             "function (${parameters}) {",
@@ -87,19 +87,23 @@
             "\t\t$0",
             "\t\tbreak;",
             "\tdefault:",
-            "\t\t$1",
-            "\t\treturn;",
+            "\t\treturn $1;",
             "}"
         ]
     },
-    "console log": {
-        "prefix": "cl",
-        "description": "console.log() statement",
-        "body": "console.log(${value});"
+    "use strict": {
+        "prefix": "us",
+        "description": "use strict statement",
+        "body": "'use strict';"
     },
     "debugger": {
         "prefix": "de",
         "description": "debugger statement",
         "body": "debugger;"
+    },
+    "console log": {
+        "prefix": "cl",
+        "description": "console.log() statement",
+        "body": "console.log(${value});"
     }
 }

@@ -24,19 +24,19 @@ import ${variableName} from '${path}';
 require('${path}');
 ```
 
-### [let] let variable
+### [lt] let variable
 
 ```javascript
 let ${variableName} = ${value};
 ```
 
-### [const] constant variable
+### [ct] constant variable
 
 ```javascript
 const ${VARIABLE_NAME} = ${value};
 ```
 
-### [class] Class with empty body
+### [cls] Class with empty body
 
 ```javascript
 class ${ClassName} {
@@ -44,7 +44,7 @@ class ${ClassName} {
 }
 ```
 
-### [classc] Class with constructor
+### [clsc] Class with constructor
 
 ```javascript
 class ${ClassName} {
@@ -54,7 +54,7 @@ class ${ClassName} {
 }
 ```
 
-### [classe] Class that extends another class 
+### [clse] Class that extends another class 
 
 ```javascript
 class ${ClassName} extends ${AnotherClassName} {
@@ -97,19 +97,24 @@ switch (${variable}) {
         $0
         break;
     default:
-        $1
-        return;
+        return $1;
 }
 ```
 
-### [cl] console.log
+### [us] use strict
 
 ```javascript
-console.log(${value});
+'use strict';
 ```
 
 ### [de] debugger
 
 ```javascript
 debugger;
+```
+
+### [cl] console.log
+
+```javascript
+console.log(${value});
 ```

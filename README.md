@@ -101,3 +101,15 @@ switch (${variable}) {
         return;
 }
 ```
+
+### [cl] console.log
+
+```javascript
+console.log(${value});
+```
+
+### [de] debugger
+
+```javascript
+debugger;
+```

@@ -6,11 +6,14 @@ Snippets for [Visual Studio Code](https://code.visualstudio.com/)
 To enable these snippets in Visual Studio Code, press Ctrl+Shift+P and type snippets. 
 Hit enter on ```Preferences: Snippets```, then choose the language.
 
-If you chose JavaScript, the javascript.json file will open. Just add snippets for ```.js``` files here. 
+For example, if you chose JavaScript, the javascript.json file will open. 
+Just add snippets from [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) for ```.js``` files here. 
 
 ## Javascript
 
-All JavaScript snippets are in [javascript.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json) file.
+Follow [Configuration](#configuration) steps to open the javascript.json file in your VS Code. 
+
+JavaScript snippets available [here](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascript.json).
 
 ### [im] Import statement
 
@@ -121,7 +124,9 @@ console.log(${value});
 
 ## JSX
 
-All JSX snippets are in [javascriptreact.json](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascriptreact.json) file.
+Follow [Configuration](#configuration) steps to open the javascriptreact.json file in your VS Code.
+
+JSX snippets available [here](https://github.com/danilojrr/VisualStudioCodeSnippets/blob/master/javascriptreact.json).
 
 __Note 1:__ all JavaScript snippets are included in JSX files.
 
